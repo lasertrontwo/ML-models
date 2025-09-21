@@ -7,15 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1tiryD_j1UAaZlhyAsjV_LvmrCz5SNrR4
 """
 
-!pip install streamlit
-
-!pip install ngrok
-
 import  streamlit as st
 import joblib
 import numpy as np
 
-model=joblib.load('/content/churn_model.pk1')
+model=joblib.load('churn_model.pk1')
 # App title
 st.title("Customer churn Prediction App")
 st.markdown("Enter customer details below to predict the likelihood of churn.")
