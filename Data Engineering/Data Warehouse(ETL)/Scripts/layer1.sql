@@ -61,4 +61,3 @@ set @end_time=now();
 
 
 
-select count(*) as total_rows_px_cat_gv12 from layer1_erp_px_cat_g1v2;
